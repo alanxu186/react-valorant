@@ -51,6 +51,28 @@ function CharacterDisplay() {
                     <p>Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she’s always eons ahead of her enemy’s next move.</p>
                 </Carousel.Caption>
             </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src="https://d1lss44hh2trtw.cloudfront.net/assets/article/2022/01/07/valorant-neon-wallpaper-dark-4k_feature.jpg"
+                    alt="Fifth slide"
+                />
+                <Carousel.Caption>
+                    <h3>Neon</h3>
+                    <p>Filipino Agent, Neon, surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard, then strikes them down quicker than lightning.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src="https://cdn.talkesport.com/wp-content/uploads/valorant-viper.jpg"
+                    alt="Sixth slide"
+                />
+                <Carousel.Caption>
+                    <h3>Viper</h3>
+                    <p>The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy's vision. If the toxins don't kill her prey, her mind games surely will.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
         </Carousel>
     )
 }

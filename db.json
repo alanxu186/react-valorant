@@ -1,0 +1,39 @@
+{
+  "valorantData": [{
+    "id": 1,
+    "agent": "Phoenix",
+    "location": "U.K",
+    "role": "Duelist"
+  },
+  {
+    "id": 2,
+    "agent": "Reyna",
+    "location": "Mexico",
+    "role": "Duelist"
+  },
+  {
+    "id": 3,
+    "agent": "Jett",
+    "location": "South Korea",
+    "role":"Duelist"
+  },
+  {
+    "id": 4,
+    "agent": "Neon",
+    "location": "Philippines",
+    "role": "Duelist"
+  },
+  {
+    "id": 5,
+    "agent": "Raze",
+    "location": "Brazil",
+    "role": "Duelist"
+  },
+  {
+    "id": 6,
+    "agent": "Yoru",
+    "location": "Japan",
+    "role":"Duelist"
+  }
+]
+}
