@@ -34,6 +34,23 @@
     "agent": "Yoru",
     "location": "Japan",
     "role":"Duelist"
+  },
+  {
+    "id": 7,
+    "agent": "Astra",
+    "location": "Ghana",
+    "role": "Controller"
+  },{
+    "id": 8,
+    "agent": "Brimstone",
+    "location": "United States",
+    "role": "Controller"
+  },
+  {
+    "id": 9,
+    "agent": "Omen",
+    "location": "Earth",
+    "role":"Controller"
   }
 ]
 }

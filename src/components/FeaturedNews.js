@@ -4,12 +4,32 @@ import Image from 'react-bootstrap/Image'
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
+import "../stylesheets/FeaturedNews.css"
 
 
 
-function FeaturedAgent() {
+function FeaturedNews() {
     return (
-        <Container>
+        <Container className='main-container'>
+            <Row className='first-row'>
+                <Card className='text-center bg-secondary text-white my-5 py-4' >
+                    <Card.Body className="text-white display-5">Featured News</Card.Body>
+                </Card>
+            </Row>
+            <Row className='px-4 my-5'>
+                <Col sm={7}>
+                    <Image
+                        src="https://progameguides.com/wp-content/uploads/2022/04/Fade-Valorant.jpg"
+                        fluid
+                        rounded
+                    />
+                </Col>
+                <Col sm={5}>
+                    <h1 className='font-weight-light'>New Agent: Fade</h1>
+                    <p className='mt-4'>Newly released agent, Fade, hits the battleground.</p>
+                    <Button variant="danger">Select agent</Button>
+                </Col>
+            </Row>
             <Row className='px-4 my-5'>
                 <Col sm={7}>
                     <Image
@@ -20,14 +40,23 @@ function FeaturedAgent() {
                 </Col>
                 <Col sm={5}>
                     <h1 className='font-weight-light'>Agent: Chamber</h1>
-                    <p className='mt-4'>Chamber hails from Paris.</p>
+                    <p className='mt-4'>Chamber gets changes to his kit in patch 4.5.</p>
                     <Button variant="danger">Select agent</Button>
                 </Col>
             </Row>
-            <Row>
-                <Card className='text-center bg-secondary text-white my-5 py-4' >
-                    <Card.Body>This is some text within a card body.</Card.Body>
-                </Card>
+            <Row className='px-4 my-5'>
+                <Col sm={7}>
+                    <Image
+                        src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltfa8fbd5977dcbf05/60cf706b4e87de56c81241a6/Stage-3-Header.jpg"
+                        fluid
+                        rounded
+                    />
+                </Col>
+                <Col sm={5}>
+                    <h1 className='font-weight-light'>VCT Challengers 2022</h1>
+                    <p className='mt-4'>The 2022 VCT Challengers will be taking place in North America.</p>
+                    <Button variant="success">More info</Button>
+                </Col>
             </Row>
             <Row className='all-cards'>
                 <Col>
@@ -86,4 +115,4 @@ function FeaturedAgent() {
     )
 }
 
-export default FeaturedAgent
+export default FeaturedNews

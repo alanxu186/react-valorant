@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 
 function ValNavBar() {
     return (
-        <Navbar bg="dark" variant="dark" expand="md">
+        <Navbar bg="dark" variant="dark" expand="md" >
             <Container>
                 <Navbar.Brand href="#home">Valorant Beta</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
